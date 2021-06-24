@@ -36,7 +36,7 @@ const axios = require('axios')
 database.once('open', () => {
     require('./models/User')
     require('./models/Server')
-    require('./util/Loader.js')(client, database);
+    require('./util/loader.js')(client, database);
     console.log(`😊 ${counter} adet komut başarıyla yüklendi!`)
     console.log('✅ Database bağlanıldı!')
     client.login(process.env.TOKEN)
