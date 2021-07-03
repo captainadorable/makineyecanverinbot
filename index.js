@@ -72,5 +72,5 @@ database.once('open', () => {
             
             await channel.send(embed)
         })
-    }, 7200000);
+    }, 14400000);
 })
